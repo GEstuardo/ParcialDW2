@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+
+</script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous"
+  />
+<title>Parcial 2 Desarrollo Web 0905-13-2548</title>
+    <style>
+        label {
+            margin-bottom: 0.1em;
+            margin-top: 0.5em;
+        }
+        .container { margin: 50px auto; }
+
+    </style>
+</head>
+<body >
+
+    <!-- FORM -->
+    <div class="container p-5">
+        <div class="row justify-content-center">
+            <div class="col-6 p-5 bg-white shadow-lg rounded">
+
+               <!---- <form id="register-form" method="post">-->
+                    
+                    <h2>Empleados Permanentes</h2>   
+                    <div class="form">
+                        
+                        <form action="#" class="row">
+                        <div class="form-group col-md-6">
+                            <label for="dpi">DPI</label>
+                            <input name="dpi" id="dpi" type="text" value="" class="form-control" placeholder="Ingrese su DPI"  required >
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+    
+                        <div class="form-group col-md-6">
+                            <label for="nit">NIT</label>
+                            <input name="nit" id="nit" type="text" value="" class="form-control" placeholder="Ingrese su NIT"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Primer Nombre</label>
+                            <input name="name1" id="name1" type="text" value="" class="form-control" placeholder="Ingrese primer nombre"  required >
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Segundo Nombre</label>
+                            <input name="name2" id="name2" type="text" value="" class="form-control" placeholder="Ingrese segundo nombre"  required >
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="apellido1">Primer Apellido</label>
+                            <input name="apellido1" id="apellido1" type="text" value="" class="form-control" placeholder="Ingrese primer apellido"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="apellido2">Segundo Apellido</label>
+                            <input name="apellido2" id="apellido2" type="text" value="" class="form-control" placeholder="Ingrese segundo apellido"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Fecha">Fecha de Nacimiento</label>
+                            <input name="nac" id="nac" type="date" value="" min="" max="" class="form-control" placeholder="Ingrese su Fecha de Nacimiento"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div> 
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="apellido3">Apellido de Casada</label>
+                            <input name="apellido3" id="apellido3" type="text" value="" class="form-control" placeholder="Ingrese apellido casada"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo sin dejar espacios.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="nominal">Puesto Nominal</label>
+                            <input name="nominal" id="nominal" type="text" value="" class="form-control" placeholder="Ingrese Puesto"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo sin dejar espacios.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="funcional">Puesto Funcional</label>
+                            <input name="funcional" id="funcional" type="text" value="" class="form-control" placeholder="Ingrese Puesto"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo sin dejar espacios.</div>  
+                        </div>
+                        <div class="form-group col-md-10">
+                            <label for="area">Departamento, área, unidad, sección o
+                                subsede dónde labora</label>
+                            <input name="area" id="area" type="text" value="" class="form-control" placeholder="Ingrese área laboral"  required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo sin dejar espacios.</div>  
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Email Institucional</label>
+                            <input name="email" id="email" type="email" value="" class="form-control" placeholder="ejemplo@ejemplo.com" required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                            <small id="emailHelp" class="form-text text-muted">Correo electrónico de uso confidencial</small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email2">Email Personal</label>
+                            <input name="email2" id="email2" type="email" value="" class="form-control" placeholder="ejemplo@ejemplo.com" required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>  
+                            <small id="emailHelp" class="form-text text-muted">Correo electrónico de uso confidencial</small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="telefono1">No. Teléfono Casa</label>
+                            <input name="telefono1" id="telefono1" type="tel" value=""  class="form-control" placeholder="Ingrese # telefónico" maxlength="8" required>
+                            <div class="valid-feedback">¡Ok válido!</div>
+                            <div class="invalid-feedback">Complete el campo.</div>
+                            <small id="numberHelp" class="form-text text-muted">Número telefónico de uso confidencial</small>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="telefono2">No. Teléfono Celular</label>
+                                <input name="telefono2" id="telefono2" type="tel" value=""  class="form-control" placeholder="Ingrese # telefónico" maxlength="8" required>
+                                <div class="valid-feedback">¡Ok válido!</div>
+                                <div class="invalid-feedback">Complete el campo.</div>
+                                <small id="numberHelp" class="form-text text-muted">Número telefónico de uso confidencial</small>
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-block mt-5" id="contenido" value="Enviar Datos">
+                    </form>
+                </form>
+
+                </div>
+            </div>
+        </div>
+         <!-- CODE -->
+      <!-- Load Validation JS -->
+      <script type="text/javascript" src="ValidacionFormulario.js"></script>
+      <script type="text/javascript">
+          let form = new Validation("register-form");
+          // Validation Functions
+          form.requireTextDPI("dpi", 2, 14,  [" "], []);
+          form.requireTextNIT("nit", 3, 20,  [" "], []);
+          form.requireTextNombre("name1", 2, 20,  [" "], []);
+          form.requireTextNombre2("name2", 2, 20,  [" "], []);
+          form.requireTextApellido("apellido1", 2, 20, [" "], []);
+          form.requireTextApellido2("apellido2", 2, 20, [" "], []);
+          form.requireTextFechaNac("nac", 3, 20,  [" "], []);
+          //form.requireTextApellido3("apellido3", 2, 20, [" "], []);
+          form.requireTextNominal("nominal", 3, 50, [" "], []);
+          form.requireTextFuncional("funcional", 3, 50, [" "], []);
+          form.requireTextArea("area", 3, 50,  [" "], []);
+          form.requireEmail("email", 4, 30, [" "], []);
+          form.requireEmail2("email2", 4, 30, [" "], []);
+          //form.registerTextCasa("telefono1", 3, 8, [" "], [],);
+         // form.registerTextCelular("telefono2", 3, 8, [" "], [],);
+
+         var contenido = document.querySelector("#contenido");
+
+function traer() {
+  let headers = new Headers();
+
+  headers.append("Content-Type", "application/json");
+  headers.append("Accept", "application/json");
+
+  headers.append("Access-Control-Allow-Origin", "http://localhost:3000");
+  headers.append("Access-Control-Allow-Credentials", "false");
+
+  headers.append("GET", "POST", "OPTIONS");
+
+  fetch("http://localhost:3000/parcial2/5f6a7107459ba247044bf90c")
+    .then((respuesta) => respuesta.json())
+    .then((respuesta) => {
+      console.log(respuesta);
+      contenido.innerHTML = `${respuesta}`;
+    });
+}
+function traer2() {
+        fetch("http://localhost:3000/parcial2/5f6a7107459ba247044bf90c")
+          .then((respuesta) => respuesta.json())
+          .then((respuesta) => {
+            console.log(respuesta);
+            contenido.innerHTML = `${respuesta}`;
+          });
+      }
+
+      function cors() {
+    // Allow from any origin
+    if (isset($_SERVER['HTTP_ORIGIN'])) {
+        header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+        header('Access-Control-Allow-Credentials: true');
+        header('Access-Control-Max-Age: 86400');    // cache for 1 day
+    }
+    // Access-Control headers are received during OPTIONS requests
+    if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+        if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']))
+            header("Access-Control-Allow-Methods: GET, POST, OPTIONS");         
+        if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
+            header("Access-Control-Allow-Headers: {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
+        exit(0);
+    }
+}
+      </script>
+    <br>
+    </br>
+    </script>
+    </html>
